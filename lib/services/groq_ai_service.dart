@@ -14,7 +14,7 @@ import '../models/ai_project_plan.dart';
 class GroqAiService {
   // ── Configuration ────────────────────────────────────────────────────────
   // TODO: Replace with your own Groq API key.
-  static const apiKey = String.fromEnvironment('GROQ_API_KEY');
+  static const _apiKey = String.fromEnvironment('GROQ_API_KEY');
   static const String _baseUrl =
       'https://api.groq.com/openai/v1/chat/completions';
 
